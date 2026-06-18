@@ -13,6 +13,7 @@ const generateTenEmail = () => {
                 const newEmailItem = document.createElement("li");
 
                 newEmailItem.classList.add("list-group-item");
+                newEmailItem.classList.add("list-group-item-primary");
                 newEmailItem.textContent = email;
                 emailList.appendChild(newEmailItem);
             })
